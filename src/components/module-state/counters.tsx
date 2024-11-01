@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useSyncExternalStore } from "react";
-import { createStore } from "../stores/createStore";
-import { useStoreSelector } from "../stores/useStoreSelector";
-import { useStore } from "../stores/useStore";
+import { createStore } from "../../stores/createStore";
+import { useStoreSelector } from "../../stores/useStoreSelector";
+import { useStore } from "../../stores/useStore";
 
 // share the same store
 const countStore = createStore({ rapi: 0, anis: 0, neon: 0 });

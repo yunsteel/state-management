@@ -1,11 +1,11 @@
-import { Rapi, Anis, Neon } from "./components/counters";
+import { CountersWithContextModuleState } from "./components/context-module-state";
+import { CountersWithModuleState } from "./components/module-state";
 
 function App() {
   return (
     <div>
-      <Rapi />
-      <Anis />
-      <Neon />
+      <CountersWithContextModuleState />
+      <CountersWithModuleState />
     </div>
   );
 }
